@@ -1,0 +1,88 @@
+body{ 
+    font-family: 'Sanchez', serif;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url(/Project/img/gymodel.jpg); 
+}
+.left{
+    position: absolute;
+    left: 33px;
+    top: 20px;
+    display: inline-block;
+    /* border: 2px solid red; */
+}
+.mid{
+    display: block;
+    width: 38%;
+    margin: 20px auto;
+    /* border: 2px solid yellow; */
+}
+.right{
+    position: absolute;
+    right: 33px;
+    top: 20px;
+    /* border: 2px solid white; */
+    display: inline-block;
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    font-size: 20px;
+}
+.navbar li a{
+    
+    color: white;
+    text-decoration: none;
+    padding: 34px 12px;
+}
+.navbar li a:hover , .navbar li a.active{
+    
+    text-decoration: underline;
+    color:coral ;
+} 
+.left img{
+    width: 132px;
+}
+.left div{
+    text-align: center;
+}
+.btn{
+    font-family: 'Sanchez', serif;
+    margin: 13px 3px;
+    color: white;
+    background-color: rgb(115, 33, 163);
+    padding: 6px 6px;
+    /* border-radius: 10px; */
+    font-size: 15px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color:coral;
+}
+.container{
+    /* border: 2px solid white; */
+    margin: 120px 900px;
+    padding: 75px;
+    width: 33%;
+    border-radius: 20px;
+    display: block;
+    
+}
+.details input{  
+    font-family: 'Sanchez', serif;
+    /* border: 2px black; */
+    border-radius: 10px;
+    margin: 15px 8px; 
+    padding: 8px 127px;
+    display: block;
+    font-size: large;
+    
+}
+#submit{
+    margin: 0px 9px;
+    padding: 6px 204px;
+    /* border-radius: 21px; */
+}
