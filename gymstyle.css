@@ -3,7 +3,7 @@ body{
     color: white;
     margin: 0px;
     padding: 0px;
-    background: url(/Project/img/gymodel.jpg); 
+    background: url(/img/gymodel.jpg); 
 }
 .left{
     position: absolute;
